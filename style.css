@@ -1,0 +1,14 @@
+h1{
+    font-size: 25px !important;
+}
+.btn-success:hover{
+    outline: none;
+    background-color: tomato;
+}
+canvas{
+    animation: example 5s infinite;
+}
+@keyframes example{
+    0%{box-shadow: 3px 3px 30px red;}
+    100%{box-shadow: 3px 3px 30px yellow;}
+}
